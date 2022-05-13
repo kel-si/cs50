@@ -6,15 +6,20 @@ int main(void)
   int n;
   do
   {
-    n = get_int("Width: ");
+    n = get_int("Size: ");
   }
 
   while (n < 1);
 
-
+  // for each row
   for (int i = 0; i < n; i++)
   {
-    printf("🍄");
+    // for each column
+    for (int j = 0; j < n; j++)
+    {
+      // print a brick
+      printf("#");
+    }
+    printf("\n");
   }
-  printf("\n");
 }
