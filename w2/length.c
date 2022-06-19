@@ -1,18 +1,26 @@
 #include <stdio.h>
 #include <cs50.h>
 
+
+int string_length(string s);
+
 int main(void)
 {
   string name = get_string("Name: ");
 
+  int length = string_length(name);
 
-  // character counter
-  int i = 0;
-
-  // checking length of string - if the character does not equal '\0', it is a valid character and it should count
-  while (name[i] != '\0')
-  {
-      i++;
+  printf("%i\n", length);
   }
-  printf("%i\n", i);
+
+// helper function to check length - can use built in functions. Use #include <string.h> to access
+int string_length(string s)
+{
+  int i = 0;
+  while (s[i] != '\0')
+  {
+    i++;
+  }
+  return i;
 }
+
