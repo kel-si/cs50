@@ -7,3 +7,5 @@ This is where I will be keeping my code as I work through [Harvard's CS50](https
 #### Week 1 : [Introduction to C](https://github.com/kel-si/cs50/tree/main/w1)
 
 #### Week 2 : [Arrays](https://github.com/kel-si/cs50/tree/main/w2)
+
+#### Week 3 : [Algorithms](https://github.com/kel-si/cs50/tree/main/w3)
