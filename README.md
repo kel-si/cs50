@@ -9,3 +9,5 @@ This is where I will be keeping my code as I work through [Harvard's CS50](https
 #### Week 2 : [Arrays](https://github.com/kel-si/cs50/tree/main/w2)
 
 #### Week 3 : [Algorithms](https://github.com/kel-si/cs50/tree/main/w3)
+
+#### Week 4 : [Memory](https://github.com/kel-si/cs50/tree/main/w4)
