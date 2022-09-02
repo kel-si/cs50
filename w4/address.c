@@ -17,5 +17,7 @@ int main(void)
 {
     int n = 50;
     int *p = &n;
+
+    // This will print a new location each time the file is ran
     printf("%p\n", p);
 }
