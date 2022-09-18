@@ -22,6 +22,6 @@ int main(void)
     // When printing the address, you do not include the asterisk - only when initially declaring
     printf("%p\n", p);
 
-    // If you wanted to print out the integer via %i at that address, include the asterisk
+    // If you wanted to print out the integer via %i at that address, include the asterisk (dereference the pointer)
     printf("%i\n", *p);
 }
